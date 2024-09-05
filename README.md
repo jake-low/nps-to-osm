@@ -1,13 +1,15 @@
-Python scripts to convert US National Park Service POI data to an OSM-compatible schema.
+Python scripts to convert US National Park Service Trail and POI data to an OSM-compatible schema.
 
 Supported feature types:
+- Trails
 - Trailheads
 - (more to come soon)
 
 ## Data sources
 
 You can download the required datasets from the following URL in GeoJSON format.
-https://public-nps.opendata.arcgis.com/datasets/nps-points-of-interest-pois-geographic-coordinate-system/explore
+- Trails: https://public-nps.opendata.arcgis.com/datasets/nps-trails-geographic-coordinate-system/explore
+- POIs: https://public-nps.opendata.arcgis.com/datasets/nps-points-of-interest-pois-geographic-coordinate-system/explore
 
 ## Running
 

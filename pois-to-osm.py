@@ -18,7 +18,7 @@ def trailhead_to_osm(props):
 
     tags["highway"] = "trailhead"
 
-    name = squeeze(props.get("POINAME").strip())
+    name = squeeze((props.get("POINAME") or "").strip())
     if name:
         if name.endswith("Trail"):
             name = name + "head"
